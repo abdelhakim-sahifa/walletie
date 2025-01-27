@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>walletie</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <nav>
+        <div class="hdiv">
+         <img src="userimg.png" alt="">
+        <div class="vdiv">
+            <p>Welcom again !</p>
+            <label id="username">Thevcercle</label>
+        </div>   
+        </div>
+        <div class="hdiv">
+        <i id="notificationBtn" class="far fa-bell"></i>
+        <p id="notificationNumBadge">8</p>    
+        </div>
+        
+        
+    </nav>
+
+    <div class="totalBalanceDiv">
+        <p>Total balance</p>
+        <h1 id="balance">$67,323<span>.78</span></h1>
+     </div>
+
+     <div class="actionDiv">
+        <div class="vdiv">
+            <i id="send" class="fa-solid fa-arrow-up"></i>
+            <label>send</label>            
+        </div>
+        
+        <div class="vdiv">
+            <i id="receive" class="fas fa-arrow-down"></i>
+            <label>receive</label>
+        </div>
+        <div class="vdiv">
+            <i id="buy" class="fas fa-credit-card icon" title="Buy"></i>
+            <label>buy</label>
+        </div>
+        <div class="vdiv">
+            <i id="swap" class="fas fa-exchange-alt icon" title="Swap"></i>
+            <label>swap</label>
+        </div>
+
+    </div>
+<p class="title">My Cards</p>
+    <div class="mycardsDiv">
+        
+        <button id="addCard"><i class="fa-regular fa-credit-card"></i></button>
+
+        <div class="card">
+            <div class="cardheder">
+                <p>Current Balance</p>
+                <h3>$20,000<span>.00</span></h3>
+                <img src="/asset/icons/tap-to-pay.png" alt="">
+                <p id="cardNumber">**** 3456</p>
+                <i class="fa-brands fa-cc-mastercard"></i>
+            </div>
+            </div>
+
+            <div class="card">
+                <div class="cardheder">
+                    <p>Current Balance</p>
+                    <h3>$20,000<span>.00</span></h3>
+                    <img src="/asset/icons/tap-to-pay.png" alt="">
+                    <p id="cardNumber">**** 3456</p>
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                </div>
+            </div>
+                <div class="card">
+                    <div class="cardheder">
+                        <p>Current Balance</p>
+                        <h3>$20,000<span>.00</span></h3>
+                        <img src="/asset/icons/tap-to-pay.png" alt="">
+                        <p id="cardNumber">**** 3456</p>
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                    </div>
+                </div>
+            
+    </div>
+    <p class="title">history</p>
+
+    <div class="historyDiv">
+        <div class="historyCard">
+            <div class="hdiv">
+               <img src="/asset/icons/paypal.png" alt="">
+            <div class="vdiv">
+                <label>Paypal</label>
+                <p>receive</p>
+            </div>  
+            </div>
+           
+            <div class="vdiv">
+                <h2 class="in" id="hisBalace" >+$550.00</h2>
+                <p id="time">12:23 PM</p>
+            </div>
+        </div>
+
+        <div class="historyCard">
+            <div class="hdiv">
+               <img src="/asset/icons/paypal.png" alt="">
+            <div class="vdiv">
+                <label>Paypal</label>
+                <p>receive</p>
+            </div>  
+            </div>
+           
+            <div class="vdiv">
+                <h2 class="in" id="hisBalace" >+$550.00</h2>
+                <p id="time">12:23 PM</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
